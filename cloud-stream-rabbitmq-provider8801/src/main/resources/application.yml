@@ -12,10 +12,10 @@ spring:
           environment: # 设置rabbitMQ的相关环境配置
             spring:
               rabbitmq:
-                host: localhost
-                port: 5672
-                username: guest
-                password: guest
+                host: 192.168.0.117
+                port: 20672
+                username: potato-datagaea
+                password: potato-datagaea
       bindings: # 服务的整合处理
         output: # 这个名字是一个通道的名称
           destination: studyExchange # 表示要使用的exchange名称定义
